@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: brown;
+
+}
+
+nav{
+    background-color: rgb(178, 104, 85);
+    display: flex;
+    /* alinhamento horizontal */
+    justify-content: space-around;
+    /* alinhamento vertical */
+    align-items: center;
+    height: 8vh;
+}
+
+.logo {
+    /* transforma o tesxto em capis loki */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7px;
+    transform: scale(1.2);
+    transition: 0.3s
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    letter-spacing: 2px;
+    align-items: center;
+}
+
+ul li {
+    display: inline-flex;
+}
